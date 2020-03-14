@@ -6,15 +6,19 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="/introduccion_a_web/guardado.html" method="GET">
+    <form action="/introduccion_a_web/guardado.html" method="POST">
 
-        <label for="nombre">Nombre</label>
+        <label for="nombre">Nombre:</label>
         <br>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre.">
         <br><br>
-        <label for="apellidos">Apellido</label>
+        <label for="apellidos">Apellido:</label>
         <br>
-        <input type="text" name="apellidos" id="apellidos">
+        <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos.">
+        <br><br>
+        <label for="email">Correo:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Escribe tu correo.">
         <br><br>
 
         <input type="submit" value="Guardar">
