@@ -1,38 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selectores simples.</title>
-    <style>
-    <!--
-        p {
-            text-align: center;
-            color: red;
-        }
+p {
+    text-align: center;
+}
 
-        #para1 {
-            text-align: center;
-            color: red;
-        }
+#id_p {
+    text-align: left;
+    color: blue;
+}
 
-        .center {
-            text-align: center;
-            color: red;
-        }
+.right-green {
+    text-align: right;
+    color: green;
+}
 
-        p.center{
-            text-align: center;
-            color: red;
-        }
+p.red {
+    text-align: center;
+    color: red;
+}
 
-        h1, h2, p {
-            text-align: center;
-            color: red;
-        }
-    </style>
-    </head>
-    <body>
-        <p class="center large">Este párrafo tiene dos clases.</p>
-    </body>
-    </html>
+.brown {
+    color: brown;
+}
+
+.large {
+    font-size: 25px;
+}
+
+h1, h2, p {
+    font-family: forte;
+}
