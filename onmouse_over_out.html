@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnMouse over out</title>
+</head>
+<body>
+    
+    <div onmouseover="mOver(this);" onmouseover="mOut(this)"
+    style="background-color: red; width: 120px; height: 20px; padding: 40px;">
+    Doom
+</div>
+
+<script type="text/javascript">
+function mOver(obj){
+    obj.innerHTML = "Slayer";
+}
+
+function mOut(obj){
+    obj.innerHTML = "Doom";
+}
+
+</script>
+    
+</body>
+</html>
