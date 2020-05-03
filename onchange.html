@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnChange</title>
+</head>
+<body>
+
+    <input id="original" onkeydown="copiar();" type="text">
+    <input id="copia" type="text">
+
+    <script type="text/javascript">
+
+    function copiar(){
+        var original = document.getElementById("original").value;
+        document.getElementById("copia").value = original;
+    }
+
+    </script>
+    
+</body>
+</html>
