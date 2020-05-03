@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    var num1 = 2;
+    var num2 = 10;
+
+    console.log("Suma: "+suma(num1, num2));
+    console.log("Resta: "+resta(num1, num2));
+    console.log("Multiplicación:"+multiplicacion());
+    console.log("División: "+division(5, 2));
+
+    // Con parametros.
+    function suma(a,b){
+        return a+b;
+    }
+
+    // Con parametros.
+    function resta(a, b){
+        return a-b;
+    }
+
+    // Sin parametros.
+    function multiplicacion(){
+        return num1*num2;
+    }
+
+    // Variables locales y globales.
+    function division(num1, num2){
+        return this.num1/num2;
+    }
+
+    </script>
+    
+</body>
+</html>
