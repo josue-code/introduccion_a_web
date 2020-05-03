@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    var edad  = Number(prompt("Ingresa tu edad."));
+
+    if ( (edad => 0) && (edad < 20)){
+        console.log("Tu edad es menor de 20.");
+    } else if ((edad >= 20) && (edad <= 40)){
+        console.log("Tienes entre 20 o 40 años.")
+    } else {
+        console.log("Tienes mas de 40 años.")
+    }
+
+    // Ciclo switch.
+
+    var date = new Date().getDay();
+    switch(date){
+        
+        case 6:
+        document.write("Hoy es sabado.");
+        break;
+
+        case 0:
+        document.write("Hoy es domingo.");
+        break;
+
+        default:
+
+        document.write("Hoy es cualquier día excepto, sabado o domingo.");
+    }
+
+    </script>
+    
+</body>
+</html>
