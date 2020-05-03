@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucles</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+    // Ciclo for.
+
+    for(let paso = 0; paso < 6; paso++){
+        //console.log("paso: "+paso);
+    }
+
+    // Ciclo while.
+
+    var n = 0, x = 0;
+    while(n < 3){
+        n++;
+        x += n;
+        //console.log(x);
+    }
+
+    // Ciclo do - while.
+
+    i = 0;
+    do{
+        i += 1;
+        //console.log(i); 
+    } while(i < 5);
+
+    // Iterador foreach.
+    var numbers = [45, 3, 5, 60, 24];
+    numbers.forEach(myFunction);
+
+    function myFunction(value, index, array){
+        console.log(value, index);
+    }
+    
+    </script>
+</body>
+</html>
